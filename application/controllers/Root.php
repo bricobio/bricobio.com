@@ -28,7 +28,7 @@ class Root extends CI_Controller {
 
     $this->load->view('templates/header', $data);
     $this->load->view('root', $data);
-    $this->load->view('templates/footer', $data);
+    //$this->load->view('templates/footer', $data);
 		$this->load->view('templates/scripts', $data);
 	}
 }

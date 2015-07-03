@@ -7,6 +7,7 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="assets/js/custom.js"></script>
+<script src="assets/js/owl.carousel.js"></script>
 <script src="angular/controllers/controllers.js"></script>
 <script src="angular/models/services.js"></script>
 <script src="angular/app.js"></script>

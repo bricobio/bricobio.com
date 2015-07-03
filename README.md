@@ -53,4 +53,5 @@ Non-static content, such as blog posts, events in calendars, pictures and more w
 * [Bootstrap Official Website](http://getbootstrap.com/)
 
 ## Sources of inspiration
-http://cherylrios.org/
+* http://themeforest.net/item/smart-blog-wordpress-theme-for-personal-blog/10823732
+* http://demo.mythemeshop.com/s/?theme=Spike

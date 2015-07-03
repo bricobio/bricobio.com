@@ -8,7 +8,10 @@
 	<title><?= $title ?></title>
   <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/test.css" rel="stylesheet" type="text/css">
   <link href="assets/css/theme_colors.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/owl.theme.css" rel="stylesheet" type="text/css">
 </head>
 <body ng-controller="GlobalController">
   <!-- Preloader -->
@@ -18,6 +21,8 @@
       <h1 class="text-uppercase">{{lang.get('intro.brand')}}</h2>
     </div>
   </div>-->
-<header>
-  header
-</header>
+<div id="header-wrapper">
+  <header>
+    header
+  </header>
+</div>

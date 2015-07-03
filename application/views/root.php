@@ -1,21 +1,91 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-
-<div id="container">
-	<h1>Welcome to CodeIgniter!</h1>
-
-	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
-
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/Welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+<!-- FEATURED WRAPPER START -->
+<div id="featured-slider-wrapper">
+	<div class="container">
+		<!--FEATURED SLIDER START-->
+		<div id="featured-slider" class="owl-carousel background-black">
+			<!--FEATURED SLIDER OWL ITEM 1 START-->
+			<div class="row">
+				<!--FEATURED POST START-->
+				<div class="featured-post col-xs-12 col-md-8 background-red-half">
+					<div class="slider-post-caption">
+						<h2 class="slider-title">Featured post title</h2>
+						<p class="slider-text">
+							Cras convallis id ligula ut convallis. Praesent euismod, lectus id gravida facilisis, velit ex euismod ante, in scelerisque ex dolor quis ligula. Maecenas vel elit libero. Pellentesque viverra arcu ac libero tristique, et gravida nunc efficitur. Aliquam erat volutpat. Donec porttitor commodo turpis vel ullamcorper. Mauris sed faucibus metus. Mauris accumsan magna eget arcu auctor, id accumsan elit fringilla. Integer pellentesque accumsan augue sit amet dictum.
+						</p>
+						<button class="slider-button btn">Read more</button>
+					</div>
+				</div>
+				<!--FEATURED POST END-->
+				<!--OTHER POSTS START-->
+				<div class="hidden-xs col-md-4 background-blue">
+					<div class="other-post background-black-half">
+						<div class="slider-post-caption">
+							<h4 class="slider-title">Other featured article fancy title</h4>
+							<button class="slider-button btn">Read more</button>
+						</div>
+					</div>
+					<div class="other-post background-white-half">
+						<div class="slider-post-caption">
+							<h4 class="slider-title">Third other featured post</h4>
+							<button class="slider-button btn">Read more</button>
+						</div>
+					</div>
+				</div>
+				<!--OTHER POSTS END-->
+			</div>
+			<!--FEATURED SLIDER OWL ITEM 1 END-->
+			<!--FEATURED SLIDER OWL ITEM 2 START-->
+			<div class="row">
+				<!--FEATURED POST START-->
+				<div class="featured-post col-xs-12 col-md-8 background-red-half">
+					<div class="slider-post-caption">
+						<h2 class="slider-title">Second item featured post title</h2>
+						<p class="slider-text">
+							Cras convallis id ligula ut convallis. Praesent euismod, lectus id gravida facilisis, velit ex euismod ante, in scelerisque ex dolor quis ligula. Maecenas vel elit libero. Pellentesque viverra arcu ac libero tristique, et gravida nunc efficitur. Aliquam erat volutpat. Donec porttitor commodo turpis vel ullamcorper. Mauris sed faucibus metus. Mauris accumsan magna eget arcu auctor, id accumsan elit fringilla. Integer pellentesque accumsan augue sit amet dictum.
+						</p>
+						<button class="slider-button btn">Read more</button>
+					</div>
+				</div>
+				<!--FEATURED POST END-->
+				<!--OTHER POSTS START-->
+				<div class="hidden-xs col-md-4 background-blue">
+					<div class="other-post background-black-half">
+						<div class="slider-post-caption">
+							<h4 class="slider-title">Second item other featured unbelievably long title for no reason except testing. So let's push it a bit: Cras convallis id ligula ut convallis. Praesent euismod, lectus id gravida facilisis, velit ex euismod ante, in scelerisque ex dolor quis ligula.</h4>
+							<button class="slider-button btn">Read more</button>
+						</div>
+					</div>
+					<div class="other-post background-white-half">
+						<div class="slider-post-caption">
+							<h4 class="slider-title">Another other featured post</h4>
+							<button class="slider-button btn">Read more</button>
+						</div>
+					</div>
+				</div>
+				<!--OTHER POSTS END-->
+			</div>
+			<!--FEATURED SLIDER OWL ITEM 2 END-->
+		</div>
+		<!-- FEATURED SLIDER END -->
 	</div>
-
-	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
 </div>
+<!-- FEATURED WRAPPER END -->
+<!-- MAIN START -->
+<div id="main-content-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-xs-padding-half col-md-8">
+				<article class="post">
+
+				</article>
+			</div>
+			<aside class="hidden-xs hidden-sm col-md-4">
+
+			</aside>
+		</div>
+	</div>
+</div>
+<!-- MAIN END -->

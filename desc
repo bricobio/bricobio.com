@@ -1,0 +1,12 @@
+libyaml0_2
+sdesc: "YAML 1.1 parser library"
+ldesc: "LibYAML is a YAML 1.1 parser and emitter written in C."
+category: Libs
+requires: cygwin
+version: 0.1.6-2
+install: x86_64/release/yaml/libyaml0_2/libyaml0_2-0.1.6-2.tar.xz 42576 7d7e2ebfcc2d50c5b198484c92016aa7bb963ce7c60c9333583b6c55a82845bbf623cff38623aedd6e0b0f9dd22a57269b2f0c2ca2e1fb8686c9d1a8e80f021e
+source: x86_64/release/yaml/yaml-0.1.6-2-src.tar.xz 504724 8900feae3543d37ccf8e7c4e9b2a7b85d1bfeb651bdc29b79bffee5b9399dc250e84d90f8c408ddcb3f390d9b887cac60d0c558e92f8ba176b336d36427698e7
+[prev]
+version: 0.1.6-1
+install: x86_64/release/yaml/libyaml0_2/libyaml0_2-0.1.6-1.tar.xz 42684 f9745deef2588300daa808d1c2abeeed53981f096243927963befe5d1ce639ca0832aae4091f82d5eaac008d68fc9a7a353eb0f4b46849b7623cf5b208f0ae4b
+source: x86_64/release/yaml/yaml-0.1.6-1-src.tar.xz 503904 0f0913ae55fa4fed89a72cf7c10ac55e58d358c515f9349025920c6366d55fb34ba1851d5d9f9949a2a72790c0dc01237d308d4e295dee867aaa7a0d8497e273
