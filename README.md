@@ -45,6 +45,12 @@ You must have an internet connection to be able to render the fonts.
 Static strings and URL will be stored in the i18n.js and URL.js models and will be integrated via the AngularJS templating engine.
 Non-static content, such as blog posts, events in calendars, pictures and more will be stored in a MySQL database and will be accessed via an AJAX call to a CodeIgniter PHP backend. The content will be updated in the AngularJS model and then trigger an watch/digest cycle.
 
+## UI Elements to refine
+* Color scheme
+* Include assets (img)
+* Font and font-style
+* .slider-post-caption p : Find a way to have the text-transform: ellipsis trigger for a better finition of overflow text. 
+
 ## Resources
 
 * [XAMPP Official Website](https://www.apachefriends.org/fr/index.html)

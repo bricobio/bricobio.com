@@ -26,6 +26,7 @@ class Root extends CI_Controller {
 
     $data['title'] = 'BricoBio Official Website'; // Capitalize the first letter
 
+		$this->load->view('templates/html_header', $data);
     $this->load->view('templates/header', $data);
     $this->load->view('root', $data);
     //$this->load->view('templates/footer', $data);

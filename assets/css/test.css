@@ -1,39 +1,39 @@
-.background-green-half {
+.bg-green-half {
   background-color: rgba(0, 0, 255, 0.5);
 }
 
-.background-blue-half {
+.bg-blue-half {
   background-color: rgba(0, 255, 0, 0.5);
 }
 
-.background-red-half {
+.bg-red-half {
   background-color: rgba(255, 0, 0, 0.5);
 }
 
-.background-white-half {
+.bg-white-half {
   background-color: rgba(255,255,255, 0.5);
 }
 
-.background-black-half {
+.bg-black-half {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.background-green {
+.bg-green {
   background-color: rgb(0, 0, 255);
 }
 
-.background-blue {
+.bg-blue {
   background-color: rgb(0, 255, 0);
 }
 
-.background-red {
+.bg-red {
   background-color: rgb(255, 0, 0);
 }
 
-.background-white {
+.bg-white {
   background-color: rgb(255,255,255);
 }
 
-.background-black {
+.bg-black {
   background-color: rgb(0, 0, 0);
 }
